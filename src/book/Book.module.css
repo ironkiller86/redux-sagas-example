@@ -27,10 +27,17 @@
   display: flex;
   flex-direction: row;
 }
+
+
 .btnDx {
   margin-left: 5px;
   width: 60px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  transition: background-color 0.4s;
 }
+
+
 
 .btnSx {
   width: 60px;
@@ -38,6 +45,7 @@
 
 .btnDx:hover {
   cursor: pointer;
+  background-color: red;
 }
 
 .row {
