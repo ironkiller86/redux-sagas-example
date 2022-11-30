@@ -36,6 +36,10 @@
   width: 60px;
 }
 
+.btnDx:hover {
+  cursor: pointer;
+}
+
 .row {
   display: flex;
   flex-direction: row;
